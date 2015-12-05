@@ -35,6 +35,7 @@ def part1(words):
 
 	return sum([isnaughty(w) == False for w in words])
 
+def part2(words):
 	def isnice(s):
 		candidate = False
 		for i in range(len(s)-1):
