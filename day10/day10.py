@@ -27,7 +27,7 @@ def main():
 		n = "1113222113"
 		for i in range(times):
 			n = look_and_say(n)
-		print "Part %d: Length of result is %d characters." % (part, len(n))
+		print "Part %d: Length of result is %d characters." % (part+1, len(n))
 	return 0
 
 if __name__ == "__main__":
