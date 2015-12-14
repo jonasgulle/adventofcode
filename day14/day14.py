@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 from operator import itemgetter
-from collections import OrderedDict
 
 class Competition(object):
 	def __init__(self, reindeers):
