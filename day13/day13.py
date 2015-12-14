@@ -25,8 +25,8 @@ class Happiness(object):
 
 	def add_apatethic_guest(self, name):
 		for n in self.guests.keys():
-			self.guests["Me"][n] = 0
-			self.guests[n]["Me"] = 0
+			self.guests[name][n] = 0
+			self.guests[n][name] = 0
 
 	def arrange_max_happiness(self):
 		max_happiness = (0, None)
